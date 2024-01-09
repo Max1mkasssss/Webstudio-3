@@ -1,0 +1,84 @@
+/* fonts  */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{ 
+    display: flex;
+}
+.container{ 
+    width: 1170px;
+    margin: 0 auto;
+    outline: 1px solid red;
+    padding: 0 30px;
+}
+a{ 
+    text-decoration: none;
+    color: inherit;
+}
+ul{ 
+    list-style-type: none;
+}
+ /* header main page  */
+ header{ 
+    background: #FFF;
+    height: 80px;
+    flex-shrink: 0;
+    align-items: center;
+ }
+ .nav-bar{ 
+    align-items: center;
+ }
+ .web-span-for-logo{
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+ }
+ .logotype{ 
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+ }
+ .list-pages, .contacts-list{ 
+    gap: 50px;
+    margin: 0;
+ }
+.list-pages-items{ 
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.active{ 
+    color: #2196F3;
+}
+.list-pages-items a:hover, .contacts-list-item:hover{ 
+    cursor: pointer;
+    color: #2196F3;
+}
+.contacts{ 
+    margin-left: 255px;
+}
+.contacts-list-item{ 
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
