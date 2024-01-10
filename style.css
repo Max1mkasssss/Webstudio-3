@@ -25,9 +25,9 @@ ul{
  /* header main page  */
  header{ 
     background: #FFF;
-    height: 80px;
     flex-shrink: 0;
     align-items: center;
+    margin-top: 0;
  }
  .nav-bar{ 
     align-items: center;
