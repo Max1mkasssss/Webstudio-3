@@ -12,7 +12,7 @@ body{
 .container{ 
     width: 1170px;
     margin: 0 auto;
-    outline: 1px solid red;
+    outline: 1px solid red; 
     padding: 0 30px;
 }
 a{ 
@@ -21,6 +21,12 @@ a{
 }
 ul{ 
     list-style-type: none;
+}
+.non-margin{ 
+    margin: 0;
+}
+.non-padding{ 
+    padding: 0;
 }
  /* header main page  */
  header{ 
@@ -31,6 +37,7 @@ ul{
  }
  .nav-bar{ 
     align-items: center;
+    padding: 16px;
  }
  .web-span-for-logo{
     color: #2196F3;
@@ -81,4 +88,189 @@ ul{
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+}     
+
+
+/* Section-1  */
+
+.background-section-1{ 
+    height: 600px;
+    flex-shrink: 0;
+    background: #2F303A;
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 h2{ 
+    color: #FFF;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; 
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin: 0;
+    justify-content: center;
+    padding-top: 200px;
+}
+.button-wrapp{ 
+    justify-content: center;
+    margin-top: 30px;
+}
+.button-section-1{ 
+    width: 216px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+}
+
+    /* Section-2  */
+.background-white{ 
+    background: #FFF;
+}
+.section-2{ 
+    margin-top: 244px;
+}
+.list-section-2{
+    gap: 30px;
+    justify-content: space-around;
+}
+.list-section-2-item{ 
+    position: relative;
+}
+.list-section-2-item:nth-child(1):before{ 
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F5F4FA;
+    background-image: url('/img/antenna.svg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -150px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.7);
+}
+.list-section-2-item:nth-child(2):before{ 
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F5F4FA;
+    background-image: url('/img/clock.svg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -150px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.7);
+}
+.list-section-2-item:nth-child(3):before{ 
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F5F4FA;
+    background-image: url('/img/diagramm.svg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -150px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.7);
+}
+.list-section-2-item:nth-child(4):before{ 
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F5F4FA;
+    background-image: url('/img/austronaut.svg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -150px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.7);
+}
+.list-section-2-item h3{ 
+    flex-shrink: 0;
+    width: 270px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.list-section-2-item p{ 
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+    /* Section-3  */
+.section-3{ 
+    padding-top: 118px;
+    padding-bottom: 50px;
+}
+.section-3 h2{ 
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+.list-section-3{ 
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.list-section-3 img{ 
+    width: 370px;
+    height: 294px;
+    flex-shrink: 0;
 }
