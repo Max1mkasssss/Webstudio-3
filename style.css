@@ -140,6 +140,8 @@ ul{
     /* Section-2  */
 .background-white{ 
     background: #FFF;
+    margin: 0;
+    padding: 0;
 }
 .section-2{ 
     margin-top: 244px;
@@ -273,4 +275,63 @@ ul{
     width: 370px;
     height: 294px;
     flex-shrink: 0;
+}
+
+/* Sectio-4 */  
+.backgroundF5F4FA{ 
+    background: #F5F4FA;
+}
+.section-4{ 
+    margin-bottom: 94px;
+}
+.section-4 h2{ 
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    padding-top: 94px;
+}
+.list-section-4{ 
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.list-section-4-item{ 
+    width: 270px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+.list-section-4-item img{ 
+    padding: 0;
+    margin: 0;
+}
+.list-section-4-item h3{ 
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;     
+    margin: 0;
+    padding-top: 30px;
+}
+.list-section-4-item p{ 
+    color: #757575;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding-bottom: 30px;
 }
