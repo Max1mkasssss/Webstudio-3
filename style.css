@@ -96,7 +96,7 @@ ul{
 .background-section-1{ 
     height: 600px;
     flex-shrink: 0;
-    background: #2F303A;
+    background: url(img/back-section-hero.png) no-repeat;
     margin: 0;
     padding: 0;
 }
