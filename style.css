@@ -162,7 +162,7 @@ ul{
     flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
-    background-image: url('/img/antenna.svg'); 
+    background-image: url('img/sprite.svg#antenna'); 
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
@@ -180,7 +180,7 @@ ul{
     flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
-    background-image: url('/img/clock.svg'); 
+    background-image: url('img/sprite.svg#clock'); 
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
@@ -301,7 +301,7 @@ ul{
 }
 .list-section-4-item{ 
     width: 270px;
-    height: 368px;
+    height: 428px;
     flex-shrink: 0;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
@@ -339,7 +339,6 @@ ul{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.48px;
-    padding-bottom: 30px;
 }
     /* Footer  */
 
@@ -469,4 +468,24 @@ address{
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.48px;
     margin-left: 24px;
+}
+
+
+.social-svg-wrapper{ 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.social-svg{ 
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 50%;
+    fill: #AFB1B8;
+}
+#1-social{ 
+    background: url(img/social-net.svg#instagram) no-repeat cover;
+}
+#2-social{ 
+    background: url(img/social-net.svg#facebook) no-repeat cover;
 }
