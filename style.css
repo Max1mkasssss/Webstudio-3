@@ -506,3 +506,26 @@ address{
     background-position: center;
     background-repeat: no-repeat;
 }
+.h3-section-3{ 
+    color: rgb(33, 33, 33);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+.section-3-list{ 
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.section-3-list-item{
+    padding: 23px 65px 23px 56px;
+    width: 170px;
+    height: 92px;
+    box-sizing: border-box;
+    border: 1px solid rgb(175, 177, 184);
+    border-radius: 4px;
+}
